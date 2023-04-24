@@ -1,14 +1,14 @@
 pipeline {
   agent any
   stages {
-    stage('Bulid') {
+    stage('New Bulid') {
       steps {
         echo 'HI how are you'
         echo 'My Nmae Mohamed Hassan'
       }
     }
 
-    stage('Test Stage') {
+    stage('Test New Stage') {
       steps {
         sh 'echo \'mohamed hassan saber\''
       }
